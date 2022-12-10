@@ -10,7 +10,7 @@ body {
 
 
 
-section {
+main section {
     display: flex;
     width: 800px;
     height: 600px;
@@ -32,11 +32,11 @@ section {
     flex-wrap: wrap;
 }
 
-section figure  {
+main section figure  {
     width: 50%;
     height: 100%;
 }
-section figure img {
+main section figure img {
     width: 100%;
     height: 100%;
     filter:contrast();
@@ -45,7 +45,7 @@ section figure img {
     -webkit-filter:contrast();
 }
 
-section h1 {
+main section h1 {
     width: fit-content;
     height: fit-content;
     padding: 40px 15px;
@@ -56,7 +56,7 @@ section h1 {
     font-weight:lighter;
     font-family: 'Montserrat', sans-serif;
 }
-section h2 {
+main section h2 {
     font-family: 'Fraunces', sans-serif;
     width: 300px;
     height: 180px;
@@ -64,7 +64,7 @@ section h2 {
     font-size: 2.5em;
     color: hsl(212, 21%, 14%);
 }
-section p.main-text {
+main section p.main-text {
     width: 300px;
     height: 140px;
     padding-left: 15px;
@@ -98,7 +98,7 @@ section p.main-text {
 svg {
     margin-right: 10px;
 }
-section button {
+main section button {
    width: 290px;
    padding: 20px ;
    font-size: 16px;
@@ -117,7 +117,7 @@ section button {
    -ms-border-radius:10px;
    -o-border-radius:10px;
 }
-section button:hover {
+main section button:hover {
     background-color:   hsl(157, 37%, 22%);
 }
 
@@ -129,7 +129,7 @@ footer {
 }
 
 @media (max-width:823px) {
-    section{
+    main section{
         background-image: url(./images/image-product-mobile.jpg);
         background-attachment: fixed;
         background-repeat: no-repeat;
@@ -142,20 +142,20 @@ footer {
         flex-wrap: nowrap;
         
 }
-section h1 {
+main section h1 {
     margin-top: 265px;
     padding-left: 25px;
     padding-bottom: 10px;
     height: fit-content;
     width: fit-content;
 }
-section h2 {
+main section h2 {
     width: 360px;
     font-size: 35px;
     padding-left: 25px;
     height: fit-content;
 }
-section .main-text {
+main section .main-text {
     width: 360px !important;
     margin-top: 15px;
     margin-left: 10px;
